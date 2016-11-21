@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joshua.drawer.SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:hint="Username..."
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_text" />
+
+    <EditText
+        android:hint="Email..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email_textarea" />
+
+    <EditText
+        android:hint="Phone Number..."
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phone_area" />
+
+    <EditText
+        android:hint="ID Number..."
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/id_area" />
+
+    <EditText
+        android:hint="Password..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password" />
+
+    <EditText
+        android:hint="Confirm Password..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/confirm_password" />
+
+    <Button
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+</LinearLayout>
